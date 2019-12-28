@@ -11,7 +11,6 @@ const initState = {
 
 const ContactForm = props => {
   const contactContext = useContext(ContactContext);
-  const { contacts } = contactContext;
 
   const [contact, setContact] = useState(initState);
 
