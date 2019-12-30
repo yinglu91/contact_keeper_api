@@ -30,7 +30,7 @@ const AuthState = props => {
 
   // Load User
   const loadUser = async () => {
-    // @todo - load token into global header
+    // @todo - load token into global headers
     if (localStorage.token) {
       setAuthToken(localStorage.token);
     }
